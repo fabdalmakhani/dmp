@@ -2,3 +2,19 @@ baseURL = "https://fabdalmakhani.github.io/dmp/"
 languageCode = "en-us"
 title = "Dance Movement Psychotherapy Vienna"
 theme = "dimension"
+copyright = "Everything is mine"
+defautContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "About"
+    weight = 1
+  [languages.de]
+    languageName = "Deutsch"
+    title = "About"
+    weight = 2
+
+[params]
+  [params.navigation]
+    help = "Help"
